@@ -13,7 +13,7 @@ As a data team, it’s critical that you have context into the downstream use ca
 
 Auto-exposures helps users understand how their models are used in downstream analytics tools to inform investments and reduce incidents — ultimately building trust and confidence in data products. It imports and auto-generates exposures based on Tableau dashboards, with user-defined curation.
 
-Auto-exposures is available on [Versionless](/docs/dbt-versions/versionless-cloud) and on [dbt Cloud Enterprise](https://www.getdbt.com/pricing/) plans.
+Auto-exposures is available on [Release Tracks](/docs/dbt-versions/cloud-release-tracks) and on [dbt Cloud Enterprise](https://www.getdbt.com/pricing/) plans.
 
 For more information on how to set up auto-exposures, prerequisites, and more &mdash; refer to [configure auto-exposures in Tableau and dbt Cloud](/docs/cloud-integrations/configure-auto-exposures).
 

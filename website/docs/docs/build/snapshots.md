@@ -45,7 +45,7 @@ It is not possible to "preview data" or "compile sql" for snapshots in dbt Cloud
 <VersionBlock lastVersion="1.8" >
 
 - To configure snapshots in versions 1.8 and earlier, refer to [Configure snapshots in versions 1.8 and earlier](#configure-snapshots-in-versions-18-and-earlier). These versions use an older syntax where snapshots are defined within a snapshot block in a `.sql` file, typically located in your `snapshots` directory. 
-- Note that defining multiple resources in a single file can significantly slow down parsing and compilation. For faster and more efficient management, consider the updated snapshot YAML syntax, [available in Versionless](/docs/dbt-versions/versionless-cloud) or [dbt Core v1.9 and later](/docs/dbt-versions/core).
+- Note that defining multiple resources in a single file can significantly slow down parsing and compilation. For faster and more efficient management, consider the updated snapshot YAML syntax, [available now in dbt Cloud Latest](/docs/dbt-versions/cloud-release-tracks) and landing in [dbt Core v1.9](/docs/dbt-versions/core).
 
 
 </VersionBlock>
@@ -394,7 +394,7 @@ snapshots:
 
 Snapshot <Term id="table">tables</Term> will be created as a clone of your source dataset, plus some additional meta-fields*.
 
-Starting in 1.9 or with [dbt Cloud Versionless](/docs/dbt-versions/upgrade-dbt-version-in-cloud#versionless), these column names can be customized to your team or organizational conventions via the [`snapshot_meta_column_names`](/reference/resource-configs/snapshot_meta_column_names) config.
+Starting in dbt Core v1.9 (or available sooner in [dbt Cloud Latest](/docs/dbt-versions/cloud-release-tracks)), these column names can be customized to your team or organizational conventions via the [`snapshot_meta_column_names`](/reference/resource-configs/snapshot_meta_column_names) config.
 
 | Field          | Meaning | Usage |
 | -------------- | ------- | ----- |
@@ -485,7 +485,7 @@ To configure snapshots in versions 1.9 and later, refer to [Configuring snapshot
 
 - In dbt versions 1.8 and earlier, snapshots are `select` statements, defined within a snapshot block in a `.sql` file (typically in your `snapshots` directory). You'll also need to configure your snapshot to tell dbt how to detect record changes. 
 - The earlier dbt versions use an older syntax that allows for defining multiple resources in a single file. This syntax can significantly slow down parsing and compilation.
-- For faster and more efficient management, consider[ upgrading to Versionless](/docs/dbt-versions/versionless-cloud) or the [latest version of dbt Core](/docs/dbt-versions/core), which introduces an updated snapshot configuration syntax that optimizes performance.
+- For faster and more efficient management, consider [upgrading to dbt Cloud Latest](/docs/dbt-versions/cloud-release-tracks) for early access to this functionality, which will be landing in dbt Core v1.9.
 
 The following example shows how to configure a snapshot:
 

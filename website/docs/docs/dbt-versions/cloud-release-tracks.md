@@ -6,13 +6,15 @@ description: "Learn how to get automatic upgrades to dbt in dbt Cloud. Access ne
 
 Since May 2024, new capabilities in the dbt framework are delivered continuously to dbt Cloud by means of "Release Tracks." Your projects and environments are upgraded automatically on a cadence that you choose, depending on your dbt Cloud plan.
 
+Previously, customers would pin to a minor version of dbt Core, and receive only patch updates during that specific version's active support period. Release tracks ensure that your project stays up-to-date with the modern capabilities of dbt Cloud and recent versions of dbt Core.
+
 This will require you to make one final update to your current jobs and environments. When that's done, you'll never have to think about managing, coordinating, or upgrading dbt versions again.
 
 By moving your environments and jobs to "Release Tracks," you can get all the functionality in dbt Cloud as soon as it's ready — including "Latest" features _before_ they're in dbt Core OSS.
 
-## What are release tracks?
+## Which Release Tracks are available?
 
-- **"Latest"** (available to all plans; formerly called "Versionless"): Get all the latest functionality in dbt Cloud, continuously. Includes early access to new features of the dbt framework before they're available in open source releases of dbt Core.
+- **"Latest"** (available to all plans, formerly called "Versionless"): Get all the latest functionality in dbt Cloud, continuously. Includes early access to new features of the dbt framework before they're available in open source releases of dbt Core.
 - **"Compatible"** (available to Team + Enterprise): Monthly release aligned to the most recent open source versions of dbt Core and adapters, plus additional functionality that's available exclusively in dbt Cloud.
 - **"Extended"** (available to Enterprise): The previous month's "Compatible" release.
 
